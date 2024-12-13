@@ -1,6 +1,6 @@
 FROM python
 # using python image from docker hub
-WORKDIR /BhagyaAuto
+WORKDIR /ashucode
 # creating and changing folder in docker image
 COPY automate.py /ashucode/
 CMD [ "python" , "automate.py" ]
